@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans&family=Roboto&display=swap');
+/*color to use later #F6B5cc */
+
+/* TAGS */
+body {
+    color: white;
+
+}
+li {
+    list-style-type: none;
+    font-family: 'Roboto', sans-serif !important;
+    text-align: center;
+   
+}
+p {
+    font-family: 'Roboto', sans-serif !important;
+}
+
+
+/*IDs*/
+#description {
+    text-align: center;
+}
+#intro-section {
+
+    font-family: 'Nunito Sans', sans-serif !important; 
+    color: #6D678E; 
+    text-align: center;
+}
+
+
+
+/*CLASSES */
+
+.navbar-custom .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(109, 103, 142, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+  
+  }
+ .navbar-custom .navbar-toggler {
+    border-color: #6D678E;
+    color: #6D678E;
+   
+}
+.navbar-custom .nav-item.active .nav-link,
+.navbar-custom .nav-item:hover .nav-link {
+    border-color: #6D678E;
+    color: #6D678E;
+}
+.landing-header {
+    font-family: 'Nunito Sans', sans-serif !important; 
+    text-align: center;
+    color: #6D678E;
+}
+.foot-copy {
+    text-align: center;
+}
+
+.header-imp {
+    font-family: 'Nunito Sans', sans-serif !important; 
+    color: #6D678E;
+    text-align: center;
+}

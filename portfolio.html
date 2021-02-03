@@ -1,84 +1,136 @@
-<DOCTYPE html>
-    <html>
+<!doctype html>
+<html lang="en">
+  <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+   
     <link rel="stylesheet" href="style.css">
-    <head><title>Lixian Ng</title>
+    <link href="css/all.css" rel="stylesheet">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous"> 
+    <title>Lixian Ng</title>
     </head>
         <body>
              <header>
-        <h1 id="name">Lixian Ng</h1>
-            <p id="description">Software Developer|Narrative Game Designer|Pixel Artist</p>
-            <nav id="navigation">
-            <ul id="navbar">
-                <li>About Me</li>
-                <li>Projects</li>
-                <li>Contact Me</li>
-                <li>Resume</li>
-                </ul>
-            </nav>
+              <nav class="navbar navbar-expand-lg navbar-custom">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav">
+                          <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="#aboutme">About</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="#skills">Skills</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="#projects">Projects</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="#description">Contact</a>
+                          </li>
+                        </ul>
+                      </div>
+                  </nav>
         </header>
-            <section id="aboutme">
-                <h1>About Me</h1>
-                <p>I am a developer and Brooklynite based in New Jersey, who loves making apps and indie games. During my sophomore year of college when I got bored of traditional writing, I discovered Twine, an Electron app by Chris Klimas to make browser text games. I developed basic HTML/CSS skills while writing in Twine and then decided to learn actual programming languages: C# and Python. Building interactive worlds are my favorite things about programming.</p>
-                   </section>
-                
+        <div class="row container-fluid" id="intro-section">
+          <div class="col-lg-12 col-md-12 col-sm-12 justify-content n">
+        <section>  <h1 class="landing-header header-imp">Lixian Ng</h1>
+            <h2 id="description">Full-Stack Developer|UX Designer</h2>
+            <p id="social" class="row d-flex justify-content-center col-lg-12 mx-auto" style="font-size: 3rem;"><i class="fab fa-github p-2"></i><i class="fab fa-itch-io p-2"></i><i class="fas fa-envelope p-2"></i><i class="fab fa-weixin p-2"></i></p>
+        </section>
+      </div>
+    </div>
+    <div id="dev-section">
+<div class="container-fluid">
+    <section id="aboutme">
+      <h1 class="header-imp">About Me</h1>
+      <p>I am a New Jersey based developer who specializes in UI/UX design, C# (Unity and .NET), and React. My first experience with programming was in 2016, when I participated in <a href="https://myfirstgamejam.tumblr.com/">My First Game Jam</a> as a college student during winter break. I developed basic HTML/CSS skills while writing in <a href="https://twinery.org/">Twine</a>, a tool for narrative design where writers create interactive stories for browser play. I also learned C# for app and game development. As a developer with a sociological background, I focus on diversity, psychology, and disability. While studying history and theory in my spare time, I focus on the psychology of interactive media, accessibility, and narratives that move and relate to the reader. My favorite thing about programming is creating interactive worlds, I view it as an art akin to writing novels.. When I'm not programming or designing, I'm gaming, studying Mandarin or reading history books.</p>
+         </section>
+        </div>
+
+  
+               
                 <section id="skills">
-            <h1>Skills</h1>
+            <h1 class="header-imp">Skills</h1>
                 <ul>
-                <li>HTML/CSS/JS</li>
-                <li>Bootstrap</li>
-                    <li>SQL</li>
-                    <li>Python (Flask and Renpy)</li>
-                    <li>C# (Unity,.NET, ASP.NET, Winforms)</li>
+                <li>HTML/CSS/Javascript</li>
+                    <li>SQL</li> 
+                    <li>C#</li>
+                    <li>Bootstrap</li>
+                    <li>React</li>
+                    <li>Figma</li>
                 </ul>
-                    </section>
-            
-			<section id="experience">
-			<h1>Watercress Studios</h1>
-			<p>2017 - Present</p>
-			
-			<p>I volunteer at Watercress Studios as a Python scriptor for visual novels, along with writing and editing. I have contributed to <i>Our Home</i>, <i>Cautionary Tale</i>, <i>A Field of Flowers and Stars</i>, and <i>When The War Was Home</i>.</p>
-			</section>
-            
-            <section>
-                <h1>Featured Projects</h1>
-                
-                <div id="grid">
-                <section>
-                    <h1>Heavenly Bird</h1>
-                    <p>HTML/CSS/Bootstrap/C#</p>
-
-                    <h1>Wilfredo Lam Tribute Page</h1>
-                    <p>HTML/CSS/Javascript</p>
-                    
-                    <h1>Across From Here</h1>
-                    <p>HTML/CSS/Flask</p>
-                    
-                    <h1>Ginger Root Media</h1>
-                    <p>HTML/CSS/Bootstrap</p>
-                   
-                <h1>Blue Nile</h1>
-                <p>C#/Unity/Ink</p>
-
-                <h1>Room 445</h1>
-                <p>C#/Unity/Ink</p>
-
-                <h1>Novena Azul</h1>
-                <p>C#/Unity/Ink</p>
-                </section>   
-	
-            <section id="social media">
-            You can find more of my projects on Github and read my devlogs on Across From Here.
-			
-            Email: lixian.marie.ng@gmail.com
-            
                 </section>
-                      
+            </div>
+        <div id="qualities">
+			<section id="experience">
+                <h1 class="header-imp">Work</h1>
+
+            <h2 class="header-imp">Freelance Solo Developer and Writer</h2>
+            <p>2016 - Present</p>
+            <p>I work independently as a game developer and freelance writer. I've developed narrative games in <a href="https://twinery.org/">Twine</a>, <a href="https://www.renpy.org/">Renpy</a>, and <a href="https://www.inklestudios.com/ink/">Ink</a>, which were all published on itch.io. On a monthly basis, I write game reviews on <a href="https://www.leveleditors.net/">Level Editors.</a></p>
+
+            <h2  class="header-imp">Watercress Studios</h2>
+            <p>2017 - Present</p>
+            <p>I volunteer at <a href="https://watercressstudios.com/index.php">Watercress Studios</a> as a Python scriptor, writer and editor. I have contributed to <a href="https://watercress.itch.io/our-home"><i>Our Home</i></a>, <a href="https://watercress.itch.io/cautionary-tale"><i>Cautionary Tale</i></a>, <a href="https://watercress.itch.io/afofas"><i>A Field of Flowers and Stars</i></a> and <a href="https://watercress.itch.io/whenthewarwashome"><i>When The War Was Home</i></a></p>
+			</section>
+        </div>
+        <div id="projects">
+            <section>
+                <h1 class="header-imp">Featured Projects and Case Studies</h1>
+                
+                <section>
+                    <h2  class="header-imp">Heavenly Bird</h2>
+                    <p>A restaurant website with a shopping cart</p>
+                    <p>HTML/CSS/JS/React</p>
+                </section>
+
+                <section>
+                    <h2  class="header-imp">Gingeroot Studio</h2>
+                    <p>A fake game development studio website</p>
+                    <p>HTML/CSS/JS/Bootstrap</p>
+                </section>
+
+                <section>
+                    <h2  class="header-imp">Sink</h2>
+                    <p>A narrative website about an abandoned library. It was made to experiment with SQL.</p>
+                    <p>HTML/CSS/C#/SQL</p>
+                </section>
+
+                <section>
+                <h2  class="header-imp">Blue Nile</h2>
+                <p>An interactive magical realist novel with 1bit pixel art and chiptune music</p>
+                <p>Unity C#/Ink</p>
+            </section>
+
+            <section>
+                <h2  class="header-imp">Until We Hold The Sky</h2>
+                <p>A website that serves an archive of literature for significant Black literature around the world. Contains book suggesting features.</p>
+                <p>HTML/CSS/C#</p>
+            </section>
+            <section>
+
+                <h2  class="header-imp">Rainbow Therapy</h2>
+                <p>A therapy app for people of color to find therapists of color</p>
+                <p>C#/Xamarin</p>
+            </section>
+        </div>
+  
         </body>
+        
     <footer>
-        Made with ❤ in Bootstrap
+        <p class="foot-copy">Copyright @ Lixian Ng</p>
+      
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js" integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF" crossorigin="anonymous"></script>
+
         </footer>
-        <script src="app.js">
-            
-        </script>
+        
+        
     </html>
