@@ -2,6 +2,10 @@
 /*color to use later #F6B5cc */
 
 /* TAGS */
+
+html {
+    scroll-behavior: smooth;
+  }
 body {
     color: white;
 
@@ -31,6 +35,10 @@ p {
 
 
 /*CLASSES */
+.border {
+    border-color: #F6B5cc;
+    d
+}
 
 .navbar-custom .navbar-toggler-icon {
     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(109, 103, 142, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
